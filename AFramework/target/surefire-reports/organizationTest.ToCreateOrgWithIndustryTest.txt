@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: organizationTest.ToCreateOrgWithIndustryTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 83.31 s -- in organizationTest.ToCreateOrgWithIndustryTest
