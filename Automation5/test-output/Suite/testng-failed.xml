@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Test2(failed)">
+    <classes>
+      <class name="organizationTest.OrganizationTest">
+        <methods>
+          <include name="configBM"/>
+          <include name="CreateOrganizationWithIndustryAndTypeTest"/>
+          <include name="configAM"/>
+          <include name="CreateOrganizationWithPhoneNumberTest"/>
+          <include name="configAT"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="CreateOganizationTest"/>
+          <include name="configAC"/>
+          <include name="configBT"/>
+          <include name="configAS"/>
+        </methods>
+      </class> <!-- organizationTest.OrganizationTest -->
+      <class name="vendorTest.VendorsTest">
+        <methods>
+          <include name="configBM"/>
+          <include name="CreateVendorsTest"/>
+          <include name="configAM"/>
+          <include name="configAT"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="configBT"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+        </methods>
+      </class> <!-- vendorTest.VendorsTest -->
+      <class name="servicesTest.ServicesTest">
+        <methods>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="configAT"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="CreateServicesTest"/>
+          <include name="configAC"/>
+          <include name="configBT"/>
+          <include name="configAS"/>
+        </methods>
+      </class> <!-- servicesTest.ServicesTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="2" parallel="tests" name="Test1(failed)">
+    <classes>
+      <class name="productsTest.ProductTest">
+        <methods>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="createNewProductTest"/>
+          <include name="configAT"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configBT"/>
+          <include name="CreateProductWithSupportDateTest"/>
+        </methods>
+      </class> <!-- productsTest.ProductTest -->
+      <class name="projectMilestonesTest.ProjectMilestoneNameTest">
+        <methods>
+          <include name="configBM"/>
+          <include name="MilestoneNameTest"/>
+          <include name="configAM"/>
+          <include name="configAT"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="configAC"/>
+          <include name="configBT"/>
+          <include name="configAS"/>
+        </methods>
+      </class> <!-- projectMilestonesTest.ProjectMilestoneNameTest -->
+      <class name="leadsTest.LeadsTest">
+        <methods>
+          <include name="configBM"/>
+          <include name="createLeadsTest"/>
+          <include name="configAM"/>
+          <include name="configAT"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="configAS"/>
+          <include name="configBT"/>
+          <include name="configAC"/>
+        </methods>
+      </class> <!-- leadsTest.LeadsTest -->
+      <class name="contactsTest.ContactTest">
+        <methods>
+          <include name="configBM"/>
+          <include name="CreateContactWithSupportDateTest"/>
+          <include name="configAM"/>
+          <include name="createContactWithOrganizationTest"/>
+          <include name="configAT"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="CreateContactTest"/>
+          <include name="configBT"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+        </methods>
+      </class> <!-- contactsTest.ContactTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

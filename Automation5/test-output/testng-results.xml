@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="0" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[---Connect to DB,Report config---]]>
+    </line>
+    <line>
+      <![CDATA[---Logout the Application---]]>
+    </line>
+    <line>
+      <![CDATA[---Close the Brower---]]>
+    </line>
+    <line>
+      <![CDATA[---Close DB,Report Backup---]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-11-06T15:36:54 IST" name="Default suite" finished-at="2025-11-06T15:37:15 IST" duration-ms="21471">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="ContactTest.CreateContactTest()[pri:0, instance:contactsTest.ContactTest@3590fc5b]" name="CreateContactTest" class="contactsTest.ContactTest"/>
+      </group> <!-- SmokeTest -->
+    </groups>
+    <test started-at="2025-11-06T15:36:54 IST" name="Default test" finished-at="2025-11-06T15:37:15 IST" duration-ms="21471">
+      <class name="contactsTest.ContactTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:contactsTest.ContactTest@3590fc5b]" started-at="2025-11-06T15:36:53 IST" name="configBS" finished-at="2025-11-06T15:36:54 IST" duration-ms="387" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[---Connect to DB,Report config---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:contactsTest.ContactTest@3590fc5b]" started-at="2025-11-06T15:36:54 IST" name="configBC" finished-at="2025-11-06T15:36:57 IST" duration-ms="3512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:contactsTest.ContactTest@3590fc5b]" started-at="2025-11-06T15:36:57 IST" name="configBM" finished-at="2025-11-06T15:36:58 IST" duration-ms="692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="CreateContactTest()[pri:0, instance:contactsTest.ContactTest@3590fc5b]" started-at="2025-11-06T15:36:58 IST" name="CreateContactTest" finished-at="2025-11-06T15:37:14 IST" duration-ms="15681" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at contactsTest.ContactTest.CreateContactTest(ContactTest.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateContactTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:contactsTest.ContactTest@3590fc5b]" started-at="2025-11-06T15:37:14 IST" name="configAM" finished-at="2025-11-06T15:37:15 IST" duration-ms="931" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[---Logout the Application---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:contactsTest.ContactTest@3590fc5b]" started-at="2025-11-06T15:37:15 IST" name="configAC" finished-at="2025-11-06T15:37:15 IST" duration-ms="412" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[---Close the Brower---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:contactsTest.ContactTest@3590fc5b]" started-at="2025-11-06T15:37:15 IST" name="configAS" finished-at="2025-11-06T15:37:15 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[---Close DB,Report Backup---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- contactsTest.ContactTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
