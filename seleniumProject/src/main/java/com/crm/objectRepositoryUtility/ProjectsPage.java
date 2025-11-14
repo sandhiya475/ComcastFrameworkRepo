@@ -1,0 +1,28 @@
+package com.crm.objectRepositoryUtility;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class ProjectsPage {
+	WebDriver driver;
+	public ProjectsPage(WebDriver driver) {
+		this.driver=driver;
+		PageFactory.initElements(driver, this);
+	}
+	
+	@FindBy(xpath="//img[@src='themes/softed/images/btnL3Add.gif']")
+	private WebElement createnewprojectlookupimgicon;
+	
+	public WebDriver getDriver() {
+		return driver;
+	}
+
+	public WebElement getCreatenewprojectlookupimgicon() {
+		return createnewprojectlookupimgicon;
+	}
+	
+	
+	
+}
